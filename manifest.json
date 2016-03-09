@@ -1,0 +1,17 @@
+{
+    "name": "html5-rssreader.ubuntu",
+    "description": "description of html5-rssreader",
+    "architecture": "all",
+    "title": "html5-rssreader",
+    "hooks": {
+        "rssreader": {
+            "apparmor": "rssreader.apparmor",
+            "desktop":  "rssreader.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "framework" : "ubuntu-sdk-14.10"
+}
+
+
